@@ -18,4 +18,6 @@ The strategy or debugging method I used to debug was console.log() after every e
 
 ### Resources
 https://www.javascripttutorial.net/javascript-fetch-api/
+
+
 ![Uploading Screen Shot 2021-05-28 at 10.00.03 PM.png…]()
