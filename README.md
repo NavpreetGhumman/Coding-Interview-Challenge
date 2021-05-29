@@ -20,4 +20,5 @@ The strategy or debugging method I used to debug was console.log() after every e
 https://www.javascripttutorial.net/javascript-fetch-api/
 
 
-![Uploading Screen Shot 2021-05-28 at 10.00.03 PM.png…]()
+<img width="926" alt="Screen Shot 2021-05-28 at 10 00 03 PM" src="https://user-images.githubusercontent.com/71792075/120054816-3c5a0e80-c000-11eb-850b-d18e56782adc.png">
+
