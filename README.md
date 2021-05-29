@@ -7,3 +7,15 @@ Notes
 - Each “role” is given a corresponding color
 - Images for employees can be found in
 http://sandbox.bittsdevelopment.com/code1/employeepics/{id}.jpg
+
+
+### Chllanges
+In this challenge,I learned how to make API call through javaScript. There are different ways to make API call and I choosed fetch API JavaScript method 
+fetch required data.
+
+#### Debugging 
+The strategy or debugging method I used to debug was console.log() after every execution.
+
+### Resources
+https://www.javascripttutorial.net/javascript-fetch-api/
+![Uploading Screen Shot 2021-05-28 at 10.00.03 PM.png…]()
