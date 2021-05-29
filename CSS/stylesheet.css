@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/* Table of Contents */
+/*=====General layout======*/
+/*=====navbar======*/
+/*=====main=====*/
+/*=====Footer======*/
+/*====Media queries====*/
+
+/* 1.General layout */
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    height: 10vh;
+    background-color:#f7f7f7;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+/*=======Navbar======*/
+#header{
+    background-color: #e1e4cd;
+}
+#logo{
+    font-size: clamp(1.5rem, 6vw, 3rem);
+}
+#logo a{
+    text-decoration: none;
+    color: #e85d50;
+    font-family: cursive;
+}
+.hidden {
+    position:absolute;
+    left:-10000px;
+    width:1px;
+    height:1px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+#navbar > ul{
+    display: flex;
+}
+#navbar ul > li{
+    padding-right: 30px;
+    list-style: none;
+}
+#navbar ul > li > a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*=====main======*/
+#main-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+}
+.emp-container{
+    position: relative;
+    display: flex;
+    border: 1px solid #000;
+    width: calc(90% / 3);
+    margin: 3% 3% 0 0;
+    flex-direction: column;
+}
+.emp-featured{
+    position: absolute;
+    right: 1rem;
+    font-size: 2rem;
+}
+.emp-img{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 40px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    font-weight: 900;
+}
+p{
+    padding: 1rem;
+}
+.emp-role{
+    padding: 1rem;
+    margin-top: auto;
+}
+.role{
+    margin-right: 8px;
+    padding: 0 16px;
+    color: #ffffff;
+}
+
+/*=====Footer=====*/
+#footer{
+    background-color: #e1e4cd;
+}
+
+/*====Media queries====*/
+@media screen and (max-width: 768px) {
+    #main-container {
+     flex-wrap: wrap;
+     justify-content: flex-start;
+    }
+    .emp-container{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .emp-container {
+        width: 90%;
+    }
+    p{
+        padding: 0.8rem;
+    }
+    .emp-role{
+        padding: 0.8rem;
+        margin-top: auto;
+    }
+}
