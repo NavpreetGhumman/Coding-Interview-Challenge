@@ -9,7 +9,7 @@ Notes
 http://sandbox.bittsdevelopment.com/code1/employeepics/{id}.jpg
 
 
-### Chllanges
+### Challenges
 In this challenge,I learned how to make API call through javaScript. There are different ways to make API call and I choosed fetch API JavaScript method 
 fetch required data.
 
